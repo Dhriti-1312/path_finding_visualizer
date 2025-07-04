@@ -14,7 +14,7 @@ const PathFindingVisualizer = () => {
     );
     const [startNode, setStartNode] = useState(null);
     const [endNode, setEndNode] = useState(null);
-    const [path, setPath] = useState([]);
+    const [, setPath] = useState([]);
     const [algorithm, setAlgorithm] = useState("dijkstra");
     const [loading, setLoading] = useState(false);
     const [theme, setTheme] = useState("light");
