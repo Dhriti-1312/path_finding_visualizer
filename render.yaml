@@ -1,9 +1,9 @@
 services:
   - type: web
     name: pathquest-backend
-    env: java
-    rootDir: backend
-    buildCommand: ./mvnw clean install
-    startCommand: java -jar target/*.jar
+    runtime: docker
+    repo: https://github.com/Dhriti-1312/path_finding_visualizer
     branch: main
+    rootDir: backend
     plan: free
+    dockerfilePath: backend/Dockerfile
