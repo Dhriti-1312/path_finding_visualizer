@@ -1,9 +1,7 @@
 services:
   - type: web
     name: pathquest-backend
-    runtime: docker
-    repo: https://github.com/Dhriti-1312/path_finding_visualizer
+    env: docker
+    region: oregon
     branch: main
-    rootDir: backend
     plan: free
-    dockerfilePath: backend/Dockerfile
