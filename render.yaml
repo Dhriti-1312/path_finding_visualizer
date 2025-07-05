@@ -5,3 +5,4 @@ services:
     region: oregon
     branch: main
     plan: free
+    dockerfilePath: backend/Dockerfile
